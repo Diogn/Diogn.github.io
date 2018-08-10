@@ -1,0 +1,22 @@
+{
+  "name": "diogn.github.io",
+  "version": "1.0.0",
+  "description": "Resposive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diogn/diogn.github.io.git"
+  },
+  "author": "Rino Dwi Cahyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Diogn/diogn.github.io/issues"
+  },
+  "homepage": "https://github.com/Diogn/diogn.github.io#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
