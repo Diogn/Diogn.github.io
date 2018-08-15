@@ -4,21 +4,19 @@
   "description": "Resposive portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Diogn/diogn.github.io/dist.git"
+    "url": "git+https://github.com/Diogn/diogn.github.io.git"
   },
   "author": "Rino Dwi Cahyo",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Diogn/diogn.github.io/issues"
   },
-  "homepage": "https://github.com/Diogn/diogn.github.io",
+  "homepage": "https://github.com/Diogn/diogn.github.io/dist",
   "dependencies": {
-    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.3"
   }
 }
