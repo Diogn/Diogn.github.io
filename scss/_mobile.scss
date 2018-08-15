@@ -19,7 +19,7 @@
     text-align: center;
 
     .lg-heading {
-      font-size: 2rem;
+      font-size: 3.5rem;
       line-height: 1;
       margin-bottom: 1rem;
     }
@@ -30,6 +30,7 @@
     float: none;
     width: 100%;
     min-height: 0;
+    
 
     &.show {
       transform: translate3d(0, 0, 0);
@@ -63,9 +64,16 @@
       'job3';
 
       grid-template-columns: 1fr;
+
   }
   .projects {
     grid-template-columns: repeat(2, 1fr)
+  }
+
+  .boxes {
+    div {
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -85,6 +93,12 @@
 
     .sm-heading {
       font-size: 1.5rem;
+    }
+  }
+
+  .boxes {
+    div {
+      font-size: 1rem;
     }
   }
 
