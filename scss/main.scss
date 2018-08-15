@@ -114,7 +114,11 @@ main {
   .job {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
-    border-bottom: $secondary-color 5px solid;
+    
+    &:hover {
+      border-bottom: 5px solid $secondary-color;
+      transform: scale3d(1.1, 1.2, 1);
+    }
 
     h5 {
       text-align: center;
@@ -191,6 +195,5 @@ main {
   color: set-text-color($primary-color);
   height: 60px;
 }
-
 
 @import 'mobile';
