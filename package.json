@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Diogn/diogn.github.io/issues"
   },
-  "homepage": "https://github.com/Diogn/diogn.github.io/dist",
+  "homepage": "https://github.com/Diogn/diogn.github.io",
   "dependencies": {
     "node-sass": "^4.9.3"
   }
