@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Diogn/diogn.github.io.git"
+    "url": "git+https://github.com/Diogn/diogn.github.io/dist.git"
   },
   "author": "Rino Dwi Cahyo",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Diogn/diogn.github.io/issues"
   },
-  "homepage": "https://github.com/Diogn/diogn.github.io/dist/",
+  "homepage": "https://github.com/Diogn/diogn.github.io",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "node-sass": "^4.9.3"
