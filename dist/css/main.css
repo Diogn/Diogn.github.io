@@ -14,11 +14,12 @@
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {
-      transform: rotate(45deg) translate(5px, 5px); }
+      transform: rotate(135deg) translate(0px, -12px); }
     .menu-btn.close .btn-line:nth-child(2) {
-      opacity: 0; }
+      opacity: 0;
+      left: -60px; }
     .menu-btn.close .btn-line:nth-child(3) {
-      transform: rotate(-45deg) translate(7px, -6px); }
+      transform: rotate(-135deg) translate(0px, 12px); }
 
 .menu {
   position: fixed;
@@ -92,6 +93,10 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+@font-face {
+  font-family: Jua-Regular;
+  src: url("./Jua-Regular.ttf"); }
+
 * {
   box-sizing: border-box; }
 
@@ -100,7 +105,7 @@ body {
   color: #000;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Jua-Regular","Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url("../img/background-laptop.jpeg");
