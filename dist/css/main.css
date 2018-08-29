@@ -41,14 +41,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #006700;
+    background: #006767;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #003400;
+    background: #003434;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -101,7 +101,7 @@
   box-sizing: border-box; }
 
 body {
-  background: green;
+  background: teal;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -119,7 +119,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(0, 128, 0, 0.8); }
+      background: rgba(0, 128, 128, 0.8); }
 
 h1,
 h2,
@@ -135,7 +135,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(0, 138, 0, 0.5); }
+    background: rgba(0, 138, 138, 0.5); }
 
 a {
   color: #fff;
@@ -186,7 +186,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #009a00;
+    background: #009a9a;
     padding: 0.5rem; }
     .about-info .job:hover {
       border-bottom: 5px solid orange;
@@ -233,7 +233,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #004d00;
+  background: #004d4d;
   color: #fff;
   height: 60px; }
 
@@ -294,4 +294,7 @@ main {
   .boxes div {
     font-size: 1rem; }
   .projects {
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr); }
+  .menu-branding .portrait {
+    width: 125px;
+    height: 125px; } }
