@@ -296,5 +296,7 @@ main {
   .projects {
     grid-template-columns: repeat(1, 1fr); }
   .menu-branding .portrait {
+    background: url("../img/pp-pink-md.jpeg");
+    background-size: cover;
     width: 125px;
     height: 125px; } }
